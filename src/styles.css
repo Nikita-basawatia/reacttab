@@ -1,0 +1,33 @@
+/* src/components/Tab.css */
+.tab-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #eee;
+  border: none;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-button.active {
+  background-color: #ccc;
+  border-bottom: 2px solid #000;
+}
+
+/* src/components/Tabs.css */
+.tabs-container {
+  display: flex;
+  border-bottom: 2px solid #000;
+}
+
+.tab-content {
+  padding: 20px;
+}
+/* src/components/NestedTabs.css */
+.nested-tabs-container {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+
+.nested-tab-content {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
