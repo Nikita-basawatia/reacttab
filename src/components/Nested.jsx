@@ -8,7 +8,7 @@ const Nested = ({ nestedTabs }) => {
 
   return (
     <div>
-      <div className="nested-tabs-container">
+      <div className="nested-tabs-containern">
         {nestedTabs.map((tab, index) => (
           <Tab
             key={index}
