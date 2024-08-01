@@ -24,7 +24,7 @@ const Tabs = ({ tabsData }) => {
         ))}
       </div>
       <div className="tab-content">
-        <div className="nested-tabs-container">
+        <div className="nested-tabs-containern">
           {tabsData[activeTab].nestedTabs &&
             tabsData[activeTab].nestedTabs.map((nestedTab, index) => (
               <Tab
